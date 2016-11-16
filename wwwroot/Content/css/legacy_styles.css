@@ -1,0 +1,122 @@
+.ko-grid:focus {
+  outline: 0;
+}
+.ko-grid .checkbox {
+  margin: 0;
+  padding-top: 0;
+}
+.ko-grid input[type=checkbox] {
+  margin: 0;
+  margin-left: -20px;
+}
+.ko-grid .ko-grid-column-container-clip {
+  overflow: hidden;
+}
+.ko-grid .ko-grid-column-container {
+  white-space: nowrap;
+  overflow: hidden;
+  height: 37px;
+}
+.ko-grid .ko-grid-column-container .ko-grid-column-header {
+  float: left;
+  display: inline-block;
+  font-weight: bold;
+  padding: 8px;
+  overflow: hidden;
+  white-space: nowrap;
+  -ms-text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}
+.ko-grid .ko-grid-column-container .ko-grid-column-header:hover .ko-grid-column-handle {
+  display: block;
+  /* Display the grid size bars only when we mouse over the columns */
+}
+.ko-grid .ko-grid-column-container .ko-grid-column-header .ko-grid-column-handle {
+  display: none;
+  width: 4px;
+  height: 20px;
+  float: right;
+  cursor: col-resize;
+  position: relative;
+  z-index: 1;
+  background-color: #cccccc;
+  box-shadow: #999999 0px 0px 5px inset;
+}
+.ko-grid .ko-grid-viewport-container {
+  position: relative;
+  overflow-y: auto;
+}
+.ko-grid .ko-grid-row {
+  position: absolute;
+  border-top: 1px solid #dddddd;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.ko-grid .ko-grid-row.checked {
+  box-shadow: 5px 0 0 0 #ff7f66 inset, -5px 0 0 0 #ff7f66 inset;
+  background-color: rgba(255, 255, 255, 0.05);
+}
+.ko-grid .ko-grid-cell {
+  float: left;
+  -ms-text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  display: inline-block;
+  padding: 8px;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+}
+#documents-page-container {
+  border-right: solid 3px rgba(0, 0, 0, 0.73);
+  padding-right: 0;
+}
+#documents-page-container ul {
+  overflow: auto;
+  max-height: 100%;
+  padding-right: 15px;
+}
+.document-collections li {
+  outline: none;
+  padding-left: 15px;
+}
+.document-collections li.all-docs-collection {
+  padding-left: 0;
+}
+.document-collections .collection-color-strip {
+  margin-right: 5px;
+}
+.document-collections .collection-text {
+  overflow: hidden;
+  white-space: nowrap;
+  -ms-text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  max-width: 80%;
+}
+.document-collections .collection-name {
+  overflow: hidden;
+  white-space: nowrap;
+  -ms-text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  max-width: 90%;
+}
+.studio-alerts {
+  position: fixed;
+  top: 60px;
+  left: 40%;
+  z-index: 2000;
+  width: 400px;
+}
+.messageBox {
+  background-color: black;
+}
+
+/*# sourceMappingURL=legacy_styles.css.map */
